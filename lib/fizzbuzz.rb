@@ -1,3 +1,8 @@
 def fizzbuzz(number)
-  'fizz'
+  case 
+  when number % 3 == 0
+    "fizz"
+  when number % 5 == 0
+    "buzz"
+  end
 end
